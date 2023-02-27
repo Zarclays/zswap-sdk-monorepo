@@ -1,4 +1,4 @@
-import { JSBI } from '@sushiswap/core-sdk'
+import { JSBI } from '@zarclays/zswap-core-sdk'
 
 export interface AccrueInfo {
   interestPerSecond: JSBI

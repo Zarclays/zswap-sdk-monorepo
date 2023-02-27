@@ -1,5 +1,5 @@
-import { Pair, Price, Token } from '@sushiswap/core-sdk'
-import { calcTokenPrices as TinesCalcTokenPrices, RToken } from '@sushiswap/tines'
+import { Pair, Price, Token } from '@zarclays/zswap-core-sdk'
+import { calcTokenPrices as TinesCalcTokenPrices, RToken } from '@zarclays/zswap-tines'
 import { convertPoolOrPairtoRPool } from './convertPoolOrPairtoRPool'
 import { Pool } from '../entities/Pool'
 

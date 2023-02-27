@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { Pair, Token } from '@sushiswap/core-sdk'
-import { findMultiRouteExactOut as TinesFindMultiRouteExactOut, MultiRoute, RToken } from '@sushiswap/tines'
+import { Pair, Token } from '@zarclays/zswap-core-sdk'
+import { findMultiRouteExactOut as TinesFindMultiRouteExactOut, MultiRoute, RToken } from '@zarclays/zswap-tines'
 import { Pool } from '../entities/Pool'
 import { convertPoolOrPairtoRPool } from './convertPoolOrPairtoRPool'
 

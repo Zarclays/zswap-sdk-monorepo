@@ -1,9 +1,9 @@
-import { Currency, Pair, Route } from '@sushiswap/core-sdk'
+import { Currency, Pair, Route } from '@zarclays/zswap-core-sdk'
 import {
 
   MultiRoute,
 
-} from '@sushiswap/tines'
+} from '@zarclays/zswap-tines'
 
 export function convertTinesSingleRouteToLegacyRoute<TInput extends Currency, TOutput extends Currency>(
   route: MultiRoute,

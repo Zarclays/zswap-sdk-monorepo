@@ -1,8 +1,8 @@
-import { CurrencyAmount, InsufficientInputAmountError, Price, Token, ZERO } from '@sushiswap/core-sdk'
+import { CurrencyAmount, InsufficientInputAmountError, Price, Token, ZERO } from '@zarclays/zswap-core-sdk'
 import { computeHybridLiquidity, computeHybridPoolAddress } from '../functions'
 
 import { A_PRECISION } from '../constants'
-import EXPORTS from '@sushiswap/trident/exports/all.json'
+import EXPORTS from '@zarclays/zswap-trident/exports/all.json'
 import { Fee } from '../enums'
 import JSBI from 'jsbi'
 import { Pool } from './Pool'

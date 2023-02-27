@@ -1,4 +1,4 @@
-# SushiSwap SDK Monorepo
+# ZSwap SDK Monorepo
 
 ## Prerequisites
 
@@ -18,13 +18,13 @@ yarn run lerna publish from-package --dist-tag canary --no-git-reset --no-verify
 ### Testing
 
 ```sh 
-yarn workspace @sushiswap/core-sdk test
+yarn workspace @zarclays/zswap-core-sdk test
 ```
 
 ### Build
 
 ```sh 
-yarn workspace @sushiswap/core-sdk build
+yarn workspace @zarclays/zswap-core-sdk build
 ```
 
 ## Limit Order SDK
@@ -32,13 +32,13 @@ yarn workspace @sushiswap/core-sdk build
 ### Testing
 
 ```sh 
-yarn workspace @sushiswap/limit-order-sdk test
+yarn workspace @zarclays/zswap-limit-order-sdk test
 ```
 
 ### Build
 
 ```sh 
-yarn workspace @sushiswap/limit-order-sdk build
+yarn workspace @zarclays/zswap-limit-order-sdk build
 ```
 
 ## Trident SDK
@@ -46,13 +46,13 @@ yarn workspace @sushiswap/limit-order-sdk build
 ### Testing
 
 ```sh 
-yarn workspace @sushiswap/trident-sdk test
+yarn workspace @zarclays/zswap-trident-sdk test
 ```
 
 ### Build
 
 ```sh 
-yarn workspace @sushiswap/trident-sdk build
+yarn workspace @zarclays/zswap-trident-sdk build
 ```
 
 ## Tines SDK
@@ -60,11 +60,11 @@ yarn workspace @sushiswap/trident-sdk build
 ### Testing
 
 ```sh 
-yarn workspace @sushiswap/tines test
+yarn workspace @zarclays/zswap-tines test
 ```
 
 ### Build
 
 ```sh 
-yarn workspace @sushiswap/tines build
+yarn workspace @zarclays/zswap-tines build
 ```

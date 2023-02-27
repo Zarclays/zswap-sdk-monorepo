@@ -7,11 +7,11 @@ import {
   USDC_ADDRESS,
   WETH9,
   WETH9_ADDRESS,
-} from '@sushiswap/core-sdk'
+} from '@zarclays/zswap-core-sdk'
 
 import { A_PRECISION } from '../../src/constants'
 import { HybridPool } from '../../src/entities/HybridPool'
-import all from '@sushiswap/trident/exports/all.json'
+import all from '@zarclays/zswap-trident/exports/all.json'
 import { computeHybridPoolAddress } from '../../src/functions/computeHybridPoolAddress'
 
 describe('computePoolAddress', () => {

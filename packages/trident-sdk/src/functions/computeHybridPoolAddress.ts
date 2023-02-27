@@ -1,9 +1,9 @@
-import { JSBI, Token } from '@sushiswap/core-sdk'
+import { JSBI, Token } from '@zarclays/zswap-core-sdk'
 import { Fee } from '../enums/Fee'
 import { computePoolInitCodeHash } from './computePoolInitCodeHash'
 import { defaultAbiCoder } from '@ethersproject/abi'
 import { getCreate2Address } from '@ethersproject/address'
-import hybridPoolArtifact from '@sushiswap/trident/artifacts/contracts/pool/hybrid/HybridPool.sol/HybridPool.json'
+import hybridPoolArtifact from '@zarclays/zswap-trident/artifacts/contracts/pool/hybrid/HybridPool.sol/HybridPool.json'
 import { keccak256 } from '@ethersproject/solidity'
 
 export const computeHybridPoolAddress = ({

@@ -1,6 +1,6 @@
-import { JSBI, Rebase, ZERO, maximum, minimum, toElastic, Token } from '@sushiswap/core-sdk'
+import { JSBI, Rebase, ZERO, maximum, minimum, toElastic, Token } from '@zarclays/zswap-core-sdk'
 import { accrue, accrueTotalAssetWithFee, interestAccrue, takeFee, computePairAddress } from '../functions'
-import { toAmount, toShare } from '@sushiswap/bentobox-sdk'
+import { toAmount, toShare } from '@zarclays/zswap-bentobox-sdk'
 
 import { AccrueInfo } from '../interfaces'
 

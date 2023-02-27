@@ -1,6 +1,6 @@
 {
-  "name": "@sushiswap/trident-sdk",
-  "version": "1.0.0-canary.147",
+  "name": "@zarclays/zswap-trident-sdk",
+  "version": "0.0.1-canary.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,9 +26,9 @@
   "dependencies": {
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/bignumber": "^5.4.0",
-    "@sushiswap/core-sdk": "1.0.0-canary.138",
-    "@sushiswap/tines": "1.0.0-canary.125",
-    "@sushiswap/trident": "1.0.0-canary.40",
+    "@zarclays/zswap-core-sdk": "0.0.1-canary.1",
+    "@zarclays/zswap-tines": "0.0.1-canary.1",
+    "@zarclays/zswap-trident": "0.0.1-canary.1",
     "tiny-invariant": "^1.1.0",
     "trident-preview": "npm:@sushiswap/trident@1.0.0-canary.36"
   },

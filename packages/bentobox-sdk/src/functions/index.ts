@@ -1,4 +1,4 @@
-import { ZERO, JSBI, Rebase } from '@sushiswap/core-sdk'
+import { ZERO, JSBI, Rebase } from '@zarclays/zswap-core-sdk'
 
 export function toAmount(rebase: Rebase, shares: JSBI, roundUp = false): JSBI {
   if (JSBI.EQ(rebase.base, ZERO)) return shares
