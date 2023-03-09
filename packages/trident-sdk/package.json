@@ -28,7 +28,7 @@
     "@ethersproject/bignumber": "^5.4.0",
     "@zarclays/zswap-core-sdk": "0.0.1-canary.1",
     "@zarclays/zswap-tines": "0.0.1-canary.1",
-    "@zarclays/zswap-trident": "0.0.1-canary.1",
+    "@zarclays/zswap-trident": "0.0.2-0",
     "tiny-invariant": "^1.1.0",
     "trident-preview": "npm:@sushiswap/trident@1.0.0-canary.36"
   },

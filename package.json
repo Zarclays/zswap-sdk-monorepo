@@ -10,7 +10,6 @@
     "watch": "yarn workspaces foreach run watch"
   },
   "devDependencies": {
-    "@sushiswap/prettier-config": "^0.1.0",
     "@types/node": "^16.9.1",
     "lerna": "^5.2.0",
     "prettier": "^2.4.0"
