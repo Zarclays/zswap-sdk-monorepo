@@ -11,6 +11,7 @@ export enum ChainKey {
   FANTOM_TESTNET = 'fantom-testnet',
   FUSE = 'fuse',
   GÖRLI = 'goerli',
+  HARDHAT = 'hardhat',
   HARMONY = 'harmony',
   HARMONY_TESTNET = 'harmony-testnet',
   HECO = 'heco',

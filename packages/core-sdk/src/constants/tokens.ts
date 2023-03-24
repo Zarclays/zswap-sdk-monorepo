@@ -1,5 +1,5 @@
 import { ChainTokenMap, TokenMap } from '../types'
-import { SUSHI_ADDRESS, USDC_ADDRESS, USD_ADDRESS, WETH9_ADDRESS, WNATIVE_ADDRESS } from './addresses'
+import { ZSWAPTOKEN_ADDRESS, USDC_ADDRESS, USD_ADDRESS, WETH9_ADDRESS, WNATIVE_ADDRESS } from './addresses'
 
 import { ChainId } from '../enums'
 import { Token } from '../entities/Token'
@@ -170,25 +170,25 @@ export const WNATIVE: TokenMap = {
 }
 
 export const SUSHI: ChainTokenMap = {
-  [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM, SUSHI_ADDRESS[ChainId.ETHEREUM], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, SUSHI_ADDRESS[ChainId.ROPSTEN], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, SUSHI_ADDRESS[ChainId.RINKEBY], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, SUSHI_ADDRESS[ChainId.GÖRLI], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.KOVAN]: new Token(ChainId.KOVAN, SUSHI_ADDRESS[ChainId.KOVAN], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.MATIC]: new Token(ChainId.MATIC, SUSHI_ADDRESS[ChainId.MATIC], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.FANTOM]: new Token(ChainId.FANTOM, SUSHI_ADDRESS[ChainId.FANTOM], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.XDAI]: new Token(ChainId.XDAI, SUSHI_ADDRESS[ChainId.XDAI], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.BSC]: new Token(ChainId.BSC, SUSHI_ADDRESS[ChainId.BSC], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.ARBITRUM]: new Token(ChainId.ARBITRUM, SUSHI_ADDRESS[ChainId.ARBITRUM], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, SUSHI_ADDRESS[ChainId.AVALANCHE], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.OKEX]: new Token(ChainId.OKEX, SUSHI_ADDRESS[ChainId.OKEX], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.HARMONY]: new Token(ChainId.HARMONY, SUSHI_ADDRESS[ChainId.HARMONY], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.HECO]: new Token(ChainId.HECO, SUSHI_ADDRESS[ChainId.HECO], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.CELO]: new Token(ChainId.CELO, SUSHI_ADDRESS[ChainId.CELO], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.MOONRIVER]: new Token(ChainId.MOONRIVER, SUSHI_ADDRESS[ChainId.MOONRIVER], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.FUSE]: new Token(ChainId.FUSE, SUSHI_ADDRESS[ChainId.FUSE], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.TELOS]: new Token(ChainId.TELOS, SUSHI_ADDRESS[ChainId.TELOS], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, SUSHI_ADDRESS[ChainId.MOONBEAM], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.KAVA]: new Token(ChainId.KAVA, SUSHI_ADDRESS[ChainId.KAVA], 18, 'SUSHI', 'SushiToken'),
-  [ChainId.METIS]: new Token(ChainId.METIS, SUSHI_ADDRESS[ChainId.METIS], 18, 'SUSHI', 'SushiToken'),
+  [ChainId.ETHEREUM]: new Token(ChainId.ETHEREUM, ZSWAPTOKEN_ADDRESS[ChainId.ETHEREUM], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, ZSWAPTOKEN_ADDRESS[ChainId.ROPSTEN], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, ZSWAPTOKEN_ADDRESS[ChainId.RINKEBY], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, ZSWAPTOKEN_ADDRESS[ChainId.GÖRLI], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.KOVAN]: new Token(ChainId.KOVAN, ZSWAPTOKEN_ADDRESS[ChainId.KOVAN], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.MATIC]: new Token(ChainId.MATIC, ZSWAPTOKEN_ADDRESS[ChainId.MATIC], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.FANTOM]: new Token(ChainId.FANTOM, ZSWAPTOKEN_ADDRESS[ChainId.FANTOM], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.XDAI]: new Token(ChainId.XDAI, ZSWAPTOKEN_ADDRESS[ChainId.XDAI], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.BSC]: new Token(ChainId.BSC, ZSWAPTOKEN_ADDRESS[ChainId.BSC], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.ARBITRUM]: new Token(ChainId.ARBITRUM, ZSWAPTOKEN_ADDRESS[ChainId.ARBITRUM], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.AVALANCHE]: new Token(ChainId.AVALANCHE, ZSWAPTOKEN_ADDRESS[ChainId.AVALANCHE], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.OKEX]: new Token(ChainId.OKEX, ZSWAPTOKEN_ADDRESS[ChainId.OKEX], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.HARMONY]: new Token(ChainId.HARMONY, ZSWAPTOKEN_ADDRESS[ChainId.HARMONY], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.HECO]: new Token(ChainId.HECO, ZSWAPTOKEN_ADDRESS[ChainId.HECO], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.CELO]: new Token(ChainId.CELO, ZSWAPTOKEN_ADDRESS[ChainId.CELO], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.MOONRIVER]: new Token(ChainId.MOONRIVER, ZSWAPTOKEN_ADDRESS[ChainId.MOONRIVER], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.FUSE]: new Token(ChainId.FUSE, ZSWAPTOKEN_ADDRESS[ChainId.FUSE], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.TELOS]: new Token(ChainId.TELOS, ZSWAPTOKEN_ADDRESS[ChainId.TELOS], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, ZSWAPTOKEN_ADDRESS[ChainId.MOONBEAM], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.KAVA]: new Token(ChainId.KAVA, ZSWAPTOKEN_ADDRESS[ChainId.KAVA], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.METIS]: new Token(ChainId.METIS, ZSWAPTOKEN_ADDRESS[ChainId.METIS], 18, 'ZSwap', 'ZSwap'),
 }
