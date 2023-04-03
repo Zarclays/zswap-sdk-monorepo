@@ -191,4 +191,5 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, ZSWAPTOKEN_ADDRESS[ChainId.MOONBEAM], 18, 'ZSwap', 'ZSwap'),
   [ChainId.KAVA]: new Token(ChainId.KAVA, ZSWAPTOKEN_ADDRESS[ChainId.KAVA], 18, 'ZSwap', 'ZSwap'),
   [ChainId.METIS]: new Token(ChainId.METIS, ZSWAPTOKEN_ADDRESS[ChainId.METIS], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.GANACHE]: new Token(ChainId.GANACHE, ZSWAPTOKEN_ADDRESS[ChainId.GANACHE], 18, 'ZSwap', 'ZSwap'),
 }

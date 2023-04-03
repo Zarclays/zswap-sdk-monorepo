@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-limit-order-sdk",
-  "version": "0.0.1-canary.1",
+  "version": "0.0.2-canary.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,7 +31,7 @@
     "@ethersproject/experimental": "^5.4.0",
     "@ethersproject/signing-key": "^5.4.0",
     "@ethersproject/transactions": "^5.4.0",
-    "@zarclays/zswap-core-sdk": "0.0.1-canary.1",
+    "@zarclays/zswap-core-sdk": "0.0.2-canary.0",
     "eip-712": "^0.4.0",
     "isomorphic-unfetch": "^3.0.0"
   },

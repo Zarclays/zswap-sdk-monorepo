@@ -10,6 +10,7 @@ export enum ChainKey {
   FANTOM = 'fantom',
   FANTOM_TESTNET = 'fantom-testnet',
   FUSE = 'fuse',
+  GANACHE='ganache',
   GÖRLI = 'goerli',
   HARDHAT = 'hardhat',
   HARMONY = 'harmony',
