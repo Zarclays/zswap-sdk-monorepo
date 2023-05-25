@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-tines",
-  "version": "0.0.2-canary.0",
+  "version": "0.0.3-canary.0",
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@ethersproject/bignumber": "^5.4.0",
-    "@zarclays/zswap-core-sdk": "0.0.2-canary.0"
+    "@zarclays/zswap-core-sdk": "0.0.3-canary.0"
   },
   "devDependencies": {
     "@types/seedrandom": "^3.0.1",
