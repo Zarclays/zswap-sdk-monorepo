@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-core-sdk",
-  "version": "0.0.3-canary.0",
+  "version": "0.0.4-canary.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -39,5 +39,5 @@
     "@types/big.js": "^6.1.0",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "6094fa1fc0148a02ce1b434ffaf553761c79add2"
+  "gitHead": "5eca532bb221707c573b80c5932af541a0738d40"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-kashi-sdk",
-  "version": "0.0.3-canary.0",
+  "version": "0.0.4-canary.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,10 +26,10 @@
   "dependencies": {
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/contracts": "^5.4.0",
-    "@zarclays/zswap-bentobox-sdk": "0.0.2"
+    "@zarclays/zswap-bentobox-sdk": "0.0.3-canary.0"
   },
   "devDependencies": {
     "tsdx": "^0.14.1"
   },
-  "gitHead": "6094fa1fc0148a02ce1b434ffaf553761c79add2"
+  "gitHead": "5eca532bb221707c573b80c5932af541a0738d40"
 }
