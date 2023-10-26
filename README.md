@@ -5,11 +5,22 @@
 - Yarn v3 (If unfamilair consult https://yarnpkg.com/getting-started/install to get started and familiarise yourself)
 - Node v14 and above
 
-## Versioning (Canary)
+## Versioning 
 
-yarn lerna version --no-changelog --no-git-tag-version --preid canary --yes
+```
+yarn lerna version --no-changelog --no-git-tag-version --yes
+```
+
+### (Canary)
+```
+yarn lerna version --no-changelog --no-git-tag-version [--preid canary] --yes
+```
+
+
 
 ## Publishing (Canary)
+
+yarn run lerna publish from-package  --no-git-reset --no-verify-access  --yes
 
 yarn run lerna publish from-package --dist-tag canary --no-git-reset --no-verify-access --preid canary --yes
 
@@ -67,4 +78,19 @@ yarn workspace @zarclays/zswap-tines test
 
 ```sh 
 yarn workspace @zarclays/zswap-tines build
+```
+
+
+
+### Add Package
+
+```
+yarn workspace child-workspace-name add package-name
+
+```
+
+eg
+
+```
+ yarn workspace @zarclays/zswap-core-sdk add @wagmi/core viem
 ```

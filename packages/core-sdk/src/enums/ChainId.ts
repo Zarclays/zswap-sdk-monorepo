@@ -1,3 +1,7 @@
+import { sepolia } from "@wagmi/core";
+import { cronos, cronosTestnet,celoAlfajores, mantle, meter, scroll,mantleTestnet ,meterTestnet, scrollSepolia } from "@wagmi/core/chains";
+
+
 export enum ChainId {
   ETHEREUM = 1,
   ROPSTEN = 3,
@@ -23,6 +27,7 @@ export enum ChainId {
   OKEX = 66,
   OKEX_TESTNET = 65,
   CELO = 42220,
+  ALFAJORES=celoAlfajores.id,
   PALM = 11297108109,
   PALM_TESTNET = 11297108099,
   MOONRIVER = 1285,
@@ -36,4 +41,20 @@ export enum ChainId {
   METIS = 1088,
   ARBITRUM_NOVA = 42170,
   BOBA_AVAX = 43288,
+
+  METER=meter.id,
+  METER_TESTNET=meterTestnet.id,
+
+  MANTLE= mantle.id,
+  MANTLE_TESTNET=mantleTestnet.id,
+
+  CRONOS= cronos.id,
+  CRONOS_TESTNET=cronosTestnet.id,
+
+  SCROLL= scroll.id,
+  SCROLL_SEPOLIA=scrollSepolia.id,
+
+  SEPOLIA=sepolia.id
+
+
 }

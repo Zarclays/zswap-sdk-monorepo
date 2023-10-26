@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-core-sdk",
-  "version": "0.0.4-canary.0",
+  "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -28,16 +28,18 @@
     "@ethersproject/bignumber": "^5.4.0",
     "@ethersproject/providers": "^5.4.0",
     "@ethersproject/solidity": "^5.4.0",
+    "@wagmi/core": "^1.4.5",
     "big.js": "^6.1.1",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^4.1.0",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.0",
-    "toformat": "^2.0.0"
+    "toformat": "^2.0.0",
+    "viem": "^1.17.1"
   },
   "devDependencies": {
     "@types/big.js": "^6.1.0",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "bb82e5aecc7167628a04f6bad37a8207db0434f5"
+  "gitHead": "8ae17d9efe895e6a211d5cff5711e4590f53a51e"
 }

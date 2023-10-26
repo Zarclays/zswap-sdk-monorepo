@@ -1,3 +1,5 @@
+import { arbitrum, Chain, fantom, fantomTestnet, meter,meterTestnet, celoAlfajores,scroll,mantleTestnet, scrollSepolia } from '@wagmi/core/chains';
+
 export enum ChainKey {
   ARBITRUM = 'arbitrum',
   ARBITRUM_TESTNET = 'arbitrum-testnet',
@@ -6,6 +8,7 @@ export enum ChainKey {
   BSC = 'bsc',
   BSC_TESTNET = 'bsc-testnet',
   CELO = 'celo',
+  ALFAJORES = 'alfajores',
   ETHEREUM = 'ethereum',
   FANTOM = 'fantom',
   FANTOM_TESTNET = 'fantom-testnet',
@@ -36,4 +39,20 @@ export enum ChainKey {
   METIS = 'metis',
   ARBITRUM_NOVA = 'arbitrum-nova',
   BOBA_AVAX = 'boba-avax',
+
+  METER = "meter",
+  METER_TESTNET = "meter-testnet",
+
+  MANTLE = "mantle",
+  MANTLE_TESTNET="mantle-testnet",
+
+  CRONOS = "cronos",
+  CRONOS_TESTNET="cronos-testnet",
+
+  SCROLL="scroll",
+  SCROLL_SEPOLIA="scroll-sepolia",
+
+  SEPOLIA="sepolia"
+
+
 }
