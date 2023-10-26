@@ -11,7 +11,8 @@
       "npmClient": "npm",
       "allowBranch": [
         "canary",
-        "zswap-canary"
+        "zswap-canary",
+        "master"
       ],
       "registry": "https://registry.npmjs.org/"
     }

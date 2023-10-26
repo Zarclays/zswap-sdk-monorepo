@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-bentobox-sdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,7 +24,7 @@
     "prepublishOnly": "npx tsdx build"
   },
   "dependencies": {
-    "@zarclays/zswap-core-sdk": "0.1.0"
+    "@zarclays/zswap-core-sdk": "0.1.1"
   },
   "devDependencies": {
     "tsdx": "^0.14.1"

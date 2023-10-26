@@ -1,9 +1,7 @@
 import { ChainId } from '../enums'
 import { ChainKey } from '../enums'
-import { arbitrum, Chain, fantom, fantomTestnet, meter,meterTestnet, celoAlfajores, mantleTestnet, mantle, scroll, scrollSepolia } from '@wagmi/core/chains';
-import { cronos } from 'viem/_types/chains/definitions/cronos';
-import { cronosTestnet } from 'viem/_types/chains/definitions/cronosTestnet';
-import { sepolia } from 'viem/chains';
+import { arbitrum, Chain, fantom, fantomTestnet, meter,meterTestnet, celoAlfajores, mantleTestnet, mantle, scroll, scrollSepolia,sepolia,cronos,cronosTestnet } from '@wagmi/core/chains';
+
 
 
 export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
@@ -48,11 +46,11 @@ export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
   [meter.id]: ChainKey.METER,
   [meterTestnet.id]: ChainKey.METER_TESTNET,
 
-  [mantle.id]: ChainKey.METER,
-  [mantleTestnet.id]: ChainKey.METER_TESTNET,
+  [mantle.id]: ChainKey.MANTLE,
+  [mantleTestnet.id]: ChainKey.MANTLE_TESTNET,
 
-  [cronos.id]: ChainKey.METER,
-  [cronosTestnet.id]: ChainKey.METER_TESTNET,
+  [cronos.id]: ChainKey.CRONOS,
+  [cronosTestnet.id]: ChainKey.CRONOS_TESTNET,
 
   [scroll.id]: ChainKey.SCROLL,
   [scrollSepolia.id]: ChainKey.SCROLL_SEPOLIA,
