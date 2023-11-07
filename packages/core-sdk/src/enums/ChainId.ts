@@ -27,7 +27,7 @@ export enum ChainId {
   OKEX = 66,
   OKEX_TESTNET = 65,
   CELO = 42220,
-  ALFAJORES=celoAlfajores.id,
+  ALFAJORES=44787,
   PALM = 11297108109,
   PALM_TESTNET = 11297108099,
   MOONRIVER = 1285,
@@ -42,19 +42,19 @@ export enum ChainId {
   ARBITRUM_NOVA = 42170,
   BOBA_AVAX = 43288,
 
-  METER=meter.id,
-  METER_TESTNET=meterTestnet.id,
+  METER=82,
+  METER_TESTNET=83,
 
-  MANTLE= mantle.id,
-  MANTLE_TESTNET=mantleTestnet.id,
+  MANTLE= 5000,
+  MANTLE_TESTNET=5001,
 
-  CRONOS= cronos.id,
-  CRONOS_TESTNET=cronosTestnet.id,
+  CRONOS= 25,
+  CRONOS_TESTNET=338 ,
 
-  SCROLL= scroll.id,
-  SCROLL_SEPOLIA=scrollSepolia.id,
+  SCROLL= 534352 ,
+  SCROLL_SEPOLIA=534351 ,
 
-  SEPOLIA=sepolia.id
+  SEPOLIA=11155111 
 
 
 }
