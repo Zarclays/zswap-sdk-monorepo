@@ -1,5 +1,5 @@
-import { sepolia } from "@wagmi/core";
-import { cronos, cronosTestnet,celoAlfajores, mantle, meter, scroll,mantleTestnet ,meterTestnet, scrollSepolia } from "@wagmi/core/chains";
+import { sepolia} from "@wagmi/core";
+import { cronos, cronosTestnet,celoAlfajores, mantle, meter, scroll,mantleTestnet ,meterTestnet,  } from "@wagmi/core/chains";
 
 
 export enum ChainId {
