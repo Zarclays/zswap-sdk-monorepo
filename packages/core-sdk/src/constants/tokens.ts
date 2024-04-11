@@ -76,6 +76,8 @@ export const WETH9: TokenMap = {
     'WETH',
     'Wrapped Ether'
   ),
+  [ChainId.CORE_TESTNET]: new Token(ChainId.CORE_TESTNET, WETH9_ADDRESS[ChainId.CORE_TESTNET], 18, 'wtCore', 'Wrapped tCore'),
+  // 0x6A75daCCA1fAeFec99F20f88866b4a3F6cD61467
 }
 
 export const WNATIVE: TokenMap = {
