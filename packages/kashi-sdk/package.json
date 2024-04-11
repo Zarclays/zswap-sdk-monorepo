@@ -2,6 +2,7 @@
   "name": "@zarclays/zswap-kashi-sdk",
   "version": "0.1.4",
   "license": "MIT",
+  "private": true,
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -31,5 +32,5 @@
   "devDependencies": {
     "tsdx": "^0.14.1"
   },
-  "gitHead": "65cf7fb188eed6e83e3755aea7467d4bb7966c66"
+  "gitHead": "9e40b2ee4e3fe9f0f8268374d2fe2a3bf8e43ffc"
 }
