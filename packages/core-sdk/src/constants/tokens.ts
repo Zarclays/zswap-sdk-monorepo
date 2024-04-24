@@ -77,6 +77,8 @@ export const WETH9: TokenMap = {
     'Wrapped Ether'
   ),
   [ChainId.CORE_TESTNET]: new Token(ChainId.CORE_TESTNET, WETH9_ADDRESS[ChainId.CORE_TESTNET], 18, 'wtCore', 'Wrapped tCore'),
+
+  [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, WETH9_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'WETH', 'Wrapped Ether'),
   // 0x6A75daCCA1fAeFec99F20f88866b4a3F6cD61467
 }
 
@@ -169,6 +171,7 @@ export const WNATIVE: TokenMap = {
   [ChainId.METIS]: new Token(ChainId.METIS, WNATIVE_ADDRESS[ChainId.METIS], 18, 'WMETIS', 'Wrapped Metis'),
   [ChainId.ARBITRUM_NOVA]: WETH9[ChainId.ARBITRUM_NOVA],
   [ChainId.BOBA_AVAX]: new Token(ChainId.BOBA_AVAX, WNATIVE_ADDRESS[ChainId.BOBA_AVAX], 18, 'WBOBA', 'Wrapped Boba'),
+  [ChainId.SCROLL_SEPOLIA]: WETH9[ChainId.SCROLL_SEPOLIA],
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -194,4 +197,8 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.KAVA]: new Token(ChainId.KAVA, ZSWAPTOKEN_ADDRESS[ChainId.KAVA], 18, 'ZSwap', 'ZSwap'),
   [ChainId.METIS]: new Token(ChainId.METIS, ZSWAPTOKEN_ADDRESS[ChainId.METIS], 18, 'ZSwap', 'ZSwap'),
   [ChainId.GANACHE]: new Token(ChainId.GANACHE, ZSWAPTOKEN_ADDRESS[ChainId.GANACHE], 18, 'ZSwap', 'ZSwap'),
+
+  [ChainId.ALFAJORES]: new Token(ChainId.ALFAJORES, ZSWAPTOKEN_ADDRESS[ChainId.ALFAJORES], 18, 'ZSwap', 'ZSwap'),
+
+  [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, ZSWAPTOKEN_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'ZSwap', 'ZSwap'),
 }
