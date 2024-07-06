@@ -31,6 +31,10 @@ export const USDC: TokenMap = {
 export const USD: TokenMap = {
   ...USDC,
   [ChainId.CELO]: new Token(ChainId.CELO, USD_ADDRESS[ChainId.CELO], 18, 'cUSD', 'Celo Dollar'),
+  [ChainId.ALFAJORES]: new Token(ChainId.ALFAJORES, USD_ADDRESS[ChainId.ALFAJORES], 18, 'cUSD', 'Celo Dollar'),
+
+  [ChainId.CORE]: new Token(ChainId.CORE, USD_ADDRESS[ChainId.CORE], 18, 'USDT', 'Tether (USDT)'),
+  [ChainId.CORE_TESTNET]: new Token(ChainId.CORE_TESTNET, USD_ADDRESS[ChainId.CORE_TESTNET], 18, 'USDT', 'Tether (USDT)'),
 }
 
 export const WETH9: TokenMap = {
@@ -77,6 +81,7 @@ export const WETH9: TokenMap = {
     'Wrapped Ether'
   ),
   [ChainId.CORE_TESTNET]: new Token(ChainId.CORE_TESTNET, WETH9_ADDRESS[ChainId.CORE_TESTNET], 18, 'wtCore', 'Wrapped tCore'),
+  [ChainId.CORE]: new Token(ChainId.CORE, WETH9_ADDRESS[ChainId.CORE], 18, 'wtCore', 'Wrapped tCore'),
 
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, WETH9_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'WETH', 'Wrapped Ether'),
   // 0x6A75daCCA1fAeFec99F20f88866b4a3F6cD61467
@@ -156,6 +161,8 @@ export const WNATIVE: TokenMap = {
     'Wrapped OKExChain'
   ),
   [ChainId.CELO]: new Token(ChainId.CELO, WNATIVE_ADDRESS[ChainId.CELO], 18, 'CELO', 'Celo'),
+  [ChainId.ALFAJORES]: new Token(ChainId.ALFAJORES, WNATIVE_ADDRESS[ChainId.ALFAJORES], 18, 'CELO', 'Celo'),
+
   [ChainId.PALM]: new Token(ChainId.PALM, WNATIVE_ADDRESS[ChainId.PALM], 18, 'WPALM', 'Wrapped Palm'),
   [ChainId.MOONRIVER]: new Token(
     ChainId.MOONRIVER,

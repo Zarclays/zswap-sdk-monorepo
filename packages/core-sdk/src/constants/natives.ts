@@ -47,6 +47,7 @@ export const NATIVE: NativeMap = {
   [ChainId.OKEX]: Okex.onChain(ChainId.OKEX),
   [ChainId.OKEX_TESTNET]: Okex.onChain(ChainId.OKEX_TESTNET),
   [ChainId.CELO]: Celo.onChain(ChainId.CELO),
+  [ChainId.ALFAJORES]: Celo.onChain(ChainId.ALFAJORES),
   [ChainId.PALM]: Palm.onChain(ChainId.PALM),
   [ChainId.MOONRIVER]: Movr.onChain(ChainId.MOONRIVER),
   [ChainId.FUSE]: Fuse.onChain(ChainId.FUSE),

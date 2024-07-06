@@ -4654,16 +4654,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zarclays/zswap-bentobox-sdk@0.0.3-canary.0, @zarclays/zswap-bentobox-sdk@workspace:packages/bentobox-sdk":
+"@zarclays/zswap-bentobox-sdk@0.1.4, @zarclays/zswap-bentobox-sdk@workspace:packages/bentobox-sdk":
   version: 0.0.0-use.local
   resolution: "@zarclays/zswap-bentobox-sdk@workspace:packages/bentobox-sdk"
   dependencies:
-    "@zarclays/zswap-core-sdk": 0.0.4-canary.0
+    "@zarclays/zswap-core-sdk": 0.1.5
     tsdx: ^0.14.1
   languageName: unknown
   linkType: soft
 
-"@zarclays/zswap-core-sdk@0.0.4-canary.0, @zarclays/zswap-core-sdk@workspace:packages/core-sdk":
+"@zarclays/zswap-core-sdk@npm:0.1.5":
+  version: 0.1.5
+  resolution: "@zarclays/zswap-core-sdk@npm:0.1.5"
+  dependencies:
+    "@ethersproject/address": ^5.4.0
+    "@ethersproject/bignumber": ^5.4.0
+    "@ethersproject/providers": ^5.4.0
+    "@ethersproject/solidity": ^5.4.0
+    "@wagmi/core": ^1.4.5
+    big.js: ^6.1.1
+    decimal.js-light: ^2.5.0
+    jsbi: ^4.1.0
+    tiny-invariant: ^1.1.0
+    tiny-warning: ^1.0.0
+    toformat: ^2.0.0
+    viem: ^1.17.1
+  checksum: 7466eee521cdd3dd96596f4e80dca081118f81be9d1e4170a153d911ca96dbe952de9cbfcad4125150c36a57105ea5ae8fc7ee41b76aa965d9a72798021bfde1
+  languageName: node
+  linkType: hard
+
+"@zarclays/zswap-core-sdk@workspace:packages/core-sdk":
   version: 0.0.0-use.local
   resolution: "@zarclays/zswap-core-sdk@workspace:packages/core-sdk"
   dependencies:
@@ -4690,7 +4710,7 @@ __metadata:
   dependencies:
     "@ethersproject/abi": ^5.4.0
     "@ethersproject/contracts": ^5.4.0
-    "@zarclays/zswap-bentobox-sdk": 0.0.3-canary.0
+    "@zarclays/zswap-bentobox-sdk": 0.1.4
     tsdx: ^0.14.1
   languageName: unknown
   linkType: soft
@@ -4706,7 +4726,7 @@ __metadata:
     "@ethersproject/experimental": ^5.4.0
     "@ethersproject/signing-key": ^5.4.0
     "@ethersproject/transactions": ^5.4.0
-    "@zarclays/zswap-core-sdk": 0.0.4-canary.0
+    "@zarclays/zswap-core-sdk": 0.1.5
     eip-712: ^0.4.0
     isomorphic-unfetch: ^3.0.0
     tsdx: ^0.14.1
@@ -4721,13 +4741,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@zarclays/zswap-tines@0.0.4-canary.0, @zarclays/zswap-tines@workspace:packages/tines":
+"@zarclays/zswap-tines@0.1.4, @zarclays/zswap-tines@workspace:packages/tines":
   version: 0.0.0-use.local
   resolution: "@zarclays/zswap-tines@workspace:packages/tines"
   dependencies:
     "@ethersproject/bignumber": ^5.4.0
     "@types/seedrandom": ^3.0.1
-    "@zarclays/zswap-core-sdk": 0.0.4-canary.0
+    "@zarclays/zswap-core-sdk": 0.1.5
     seedrandom: ^3.0.5
     tsdx: ^0.14.1
   languageName: unknown
@@ -4739,8 +4759,8 @@ __metadata:
   dependencies:
     "@ethersproject/abi": ^5.4.0
     "@ethersproject/bignumber": ^5.4.0
-    "@zarclays/zswap-core-sdk": 0.0.4-canary.0
-    "@zarclays/zswap-tines": 0.0.4-canary.0
+    "@zarclays/zswap-core-sdk": 0.1.5
+    "@zarclays/zswap-tines": 0.1.4
     "@zarclays/zswap-trident": 0.0.2-0
     tiny-invariant: ^1.1.0
     trident-preview: "npm:@sushiswap/trident@1.0.0-canary.36"

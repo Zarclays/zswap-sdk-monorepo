@@ -1,8 +1,8 @@
 {
   "name": "@zarclays/zswap-limit-order-sdk",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
-  "private":true,
+  "private": true,
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
