@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-kashi-sdk",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "private": true,
   "main": "dist/index.js",
@@ -27,7 +27,7 @@
   "dependencies": {
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/contracts": "^5.4.0",
-    "@zarclays/zswap-bentobox-sdk": "0.1.6"
+    "@zarclays/zswap-bentobox-sdk": "0.1.7"
   },
   "devDependencies": {
     "tsdx": "^0.14.1"
