@@ -26,6 +26,10 @@ export const USDC: TokenMap = {
   [ChainId.KAVA]: new Token(ChainId.KAVA, USDC_ADDRESS[ChainId.KAVA], 6, 'USDC', 'USD Coin'),
   [ChainId.METIS]: new Token(ChainId.METIS, USDC_ADDRESS[ChainId.METIS], 6, 'USDC', 'USD Coin'),
   [ChainId.ARBITRUM_NOVA]: new Token(ChainId.ARBITRUM_NOVA, USDC_ADDRESS[ChainId.ARBITRUM_NOVA], 6, 'USDC', 'USD Coin'),
+
+  [ChainId.SCROLL]: new Token(ChainId.SCROLL, USDC_ADDRESS[ChainId.SCROLL], 6, 'USDC', 'USD Coin'),
+  [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, USDC_ADDRESS[ChainId.SCROLL_SEPOLIA], 6, 'USDC', 'USD Coin'),
+  [ChainId.SEPOLIA]: new Token(ChainId.SEPOLIA, USDC_ADDRESS[ChainId.SEPOLIA], 6, 'USDC', 'USD Coin')
 }
 
 export const USD: TokenMap = {
@@ -84,6 +88,7 @@ export const WETH9: TokenMap = {
   [ChainId.CORE]: new Token(ChainId.CORE, WETH9_ADDRESS[ChainId.CORE], 18, 'wtCore', 'Wrapped tCore'),
 
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, WETH9_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.SCROLL]: new Token(ChainId.SCROLL, WETH9_ADDRESS[ChainId.SCROLL], 18, 'WETH', 'Wrapped Ether'),
   // 0x6A75daCCA1fAeFec99F20f88866b4a3F6cD61467
 }
 
