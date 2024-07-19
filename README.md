@@ -8,9 +8,9 @@
 ## Versioning 
 
 ```
-yarn lerna version patch --no-changelog --no-git-tag-version --yes  
+yarn lerna version patch --no-changelog --no-git-tag-version --no-private   --yes  
 
-yarn lerna version patch  --no-git-tag-version --yes  
+yarn lerna version patch  --no-git-tag-version --no-private --yes  
 
 yarn lerna version [patch] --no-changelog --no-git-tag-version --yes
 ```

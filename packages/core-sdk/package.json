@@ -1,13 +1,13 @@
 {
   "name": "@zarclays/zswap-core-sdk",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "module": "dist/core-sdk.esm.js",
+  "module": "dist/zswap-core-sdk.esm.js",
   "repository": {
     "url": "Zarclays/zswap-sdk-monorepo",
     "directory": "packages/core-sdk"
@@ -41,5 +41,5 @@
     "@types/big.js": "^6.1.0",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "1ad2ca2e0165be7d4680a9d6e134bbbc5db52da1"
+  "gitHead": "1e661c6bc6625a6d2e03121b07de036fab5b22ed"
 }
