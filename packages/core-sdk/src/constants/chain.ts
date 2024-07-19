@@ -1,6 +1,8 @@
 import { ChainId } from '../enums'
 import { ChainKey } from '../enums'
-import { arbitrum, Chain, fantom, fantomTestnet, meter,meterTestnet, celoAlfajores, mantleTestnet, mantle, scroll, scrollSepolia,sepolia,cronos,cronosTestnet } from '@wagmi/core/chains';
+import { arbitrum, Chain, fantom, fantomTestnet, meter,meterTestnet, celoAlfajores, mantleTestnet, mantle, 
+  scroll, scrollSepolia,sepolia,cronos,cronosTestnet, 
+  coreDao } from '@wagmi/core/chains';
 
 
 
@@ -55,7 +57,13 @@ export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
   [scroll.id]: ChainKey.SCROLL,
   [scrollSepolia.id]: ChainKey.SCROLL_SEPOLIA,
 
-  [sepolia.id]: ChainKey.SEPOLIA
+  [coreDao.id]: ChainKey.CORE,
+  [ChainId.CORE_TESTNET]: ChainKey.CORE_TESTNET,
+
+  [sepolia.id]: ChainKey.SEPOLIA,
+
+
+  [ChainId.DCHAIN_TESTNET]: ChainKey.DCHAIN_TESTNET
 
 
 

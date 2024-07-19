@@ -52,7 +52,12 @@ export enum ChainKey {
   SCROLL="scroll",
   SCROLL_SEPOLIA="scroll-sepolia",
 
-  SEPOLIA="sepolia"
+  SEPOLIA="sepolia",
+
+  CORE="core",
+  CORE_TESTNET="core-testnet",
+
+  DCHAIN_TESTNET="dchain-testnet"
 
 
 }

@@ -39,6 +39,11 @@ export const USD: TokenMap = {
 
   [ChainId.CORE]: new Token(ChainId.CORE, USD_ADDRESS[ChainId.CORE], 18, 'USDT', 'Tether (USDT)'),
   [ChainId.CORE_TESTNET]: new Token(ChainId.CORE_TESTNET, USD_ADDRESS[ChainId.CORE_TESTNET], 18, 'USDT', 'Tether (USDT)'),
+
+  [ChainId.METER]: new Token(ChainId.METER, USD_ADDRESS[ChainId.METER], 6, 'USDT', 'Wrapped USDT From Ethereum on Meter'),
+  [ChainId.METER_TESTNET]: new Token(ChainId.METER_TESTNET, USD_ADDRESS[ChainId.METER_TESTNET], 6, 'USDT', 'Wrapped USDT From Ethereum on Meter'),
+
+  // [ChainId.DCHAIN_TESTNET]: new Token(ChainId.METER_TESTNET, USD_ADDRESS[ChainId.METER_TESTNET], 6, 'USDT', 'Tether (USDT)'),
 }
 
 export const WETH9: TokenMap = {
@@ -87,8 +92,17 @@ export const WETH9: TokenMap = {
   [ChainId.CORE_TESTNET]: new Token(ChainId.CORE_TESTNET, WETH9_ADDRESS[ChainId.CORE_TESTNET], 18, 'wtCore', 'Wrapped tCore'),
   [ChainId.CORE]: new Token(ChainId.CORE, WETH9_ADDRESS[ChainId.CORE], 18, 'wtCore', 'Wrapped tCore'),
 
+
+  // [ChainId.METER]: new Token(ChainId.METER, WETH9_ADDRESS[ChainId.METER], 18, 'WETH', 'Wrapped MTR'),
+  // [ChainId.METER_TESTNET]: new Token(ChainId.METER_TESTNET, WETH9_ADDRESS[ChainId.METER_TESTNET], 18, 'WETH', 'Wrapped MTR'),
+
+  [ChainId.MANTLE]: new Token(ChainId.MANTLE, WETH9_ADDRESS[ChainId.MANTLE], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.MANTLE_TESTNET]: new Token(ChainId.MANTLE_TESTNET, WETH9_ADDRESS[ChainId.MANTLE_TESTNET], 18, 'WETH', 'Wrapped Ether'),
+
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, WETH9_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.SCROLL]: new Token(ChainId.SCROLL, WETH9_ADDRESS[ChainId.SCROLL], 18, 'WETH', 'Wrapped Ether'),
+
+  [ChainId.DCHAIN_TESTNET]: new Token(ChainId.DCHAIN_TESTNET, WETH9_ADDRESS[ChainId.DCHAIN_TESTNET], 18, 'WETH', 'Wrapped Ether'),
   // 0x6A75daCCA1fAeFec99F20f88866b4a3F6cD61467
 }
 
