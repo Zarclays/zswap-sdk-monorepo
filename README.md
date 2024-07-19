@@ -24,9 +24,9 @@ yarn lerna version --no-changelog --no-git-tag-version [--preid canary] --yes
 
 ## Publishing (Canary)
 
-yarn run lerna publish from-package  --no-git-reset --no-private --no-verify-access  --yes
+yarn run lerna publish from-package  --no-git-reset --no-private   --yes
 
-yarn run lerna publish from-package --dist-tag canary --no-git-reset --no-verify-access --preid canary --yes
+yarn run lerna publish from-package --dist-tag canary --no-git-reset  --preid canary --yes
 
 ## Core SDK
 
