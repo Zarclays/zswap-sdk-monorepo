@@ -77,4 +77,12 @@ export const NATIVE: NativeMap = {
   [ChainId.METER_TESTNET]: Ether.onChain(ChainId.METER_TESTNET),
 
   [ChainId.DCHAIN_TESTNET]: Ether.onChain(ChainId.DCHAIN_TESTNET),
+
+  [ChainId.FRAXTAL]: Ether.onChain(ChainId.FRAXTAL),
+  [ChainId.FRAXTAL_TESTNET]: Ether.onChain(ChainId.FRAXTAL_TESTNET),
+
+  [ChainId.OPEN_CAMPUS]: Ether.onChain(ChainId.OPEN_CAMPUS),
+
+  [ChainId.BASE]: Ether.onChain(ChainId.BASE),
+  [ChainId.BASE_SEPOLIA]: Ether.onChain(ChainId.BASE_SEPOLIA),
 }

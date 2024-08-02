@@ -57,7 +57,18 @@ export enum ChainKey {
   CORE="core",
   CORE_TESTNET="core-testnet",
 
-  DCHAIN_TESTNET="dchain-testnet"
+  DCHAIN_TESTNET="dchain-testnet",
+
+  FRAXTAL="fraxtal",
+
+  FRAXTAL_TESTNET="fraxtal_testnet",
+
+  OPEN_CAMPUS="open_campus",
+
+  BASE="base",
+
+  BASE_SEPOLIA="base_sepolia"
+
 
 
 }

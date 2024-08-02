@@ -1,5 +1,5 @@
 import { sepolia} from "@wagmi/core";
-import { cronos, cronosTestnet,celoAlfajores, mantle, meter, scroll,mantleTestnet ,meterTestnet,  } from "@wagmi/core/chains";
+import { cronos, cronosTestnet,celoAlfajores, mantle, meter, scroll,mantleTestnet ,meterTestnet, base, baseSepolia,  } from "@wagmi/core/chains";
 
 
 export enum ChainId {
@@ -59,5 +59,14 @@ export enum ChainId {
   CORE=1116,
   CORE_TESTNET=1115,
 
-  DCHAIN_TESTNET = 2713017997578000
+  DCHAIN_TESTNET = 2713017997578000,
+
+  FRAXTAL_TESTNET = 2522,
+  FRAXTAL = 252,
+
+  OPEN_CAMPUS = 656476,
+
+  BASE=base.id,
+  BASE_SEPOLIA=baseSepolia.id
+
 }

@@ -103,7 +103,12 @@ export const WETH9: TokenMap = {
   [ChainId.SCROLL]: new Token(ChainId.SCROLL, WETH9_ADDRESS[ChainId.SCROLL], 18, 'WETH', 'Wrapped Ether'),
 
   [ChainId.DCHAIN_TESTNET]: new Token(ChainId.DCHAIN_TESTNET, WETH9_ADDRESS[ChainId.DCHAIN_TESTNET], 18, 'WETH', 'Wrapped Ether'),
-  // 0x6A75daCCA1fAeFec99F20f88866b4a3F6cD61467
+  [ChainId.FRAXTAL]: new Token(ChainId.FRAXTAL, WETH9_ADDRESS[ChainId.FRAXTAL], 18, 'wfrxETH', 'Wrapped frxEther'),
+  [ChainId.FRAXTAL_TESTNET]: new Token(ChainId.FRAXTAL_TESTNET, WETH9_ADDRESS[ChainId.FRAXTAL_TESTNET], 18, 'wfrxETH', 'Wrapped frxEther'),
+  [ChainId.OPEN_CAMPUS]: new Token(ChainId.OPEN_CAMPUS, WETH9_ADDRESS[ChainId.OPEN_CAMPUS], 18, 'WETH', 'Wrapped Ether'),
+
+  [ChainId.BASE]: new Token(ChainId.BASE, WETH9_ADDRESS[ChainId.BASE], 18, 'WETH', 'Wrapped Ether'),
+  [ChainId.BASE_SEPOLIA]: new Token(ChainId.BASE_SEPOLIA, WETH9_ADDRESS[ChainId.BASE_SEPOLIA], 18, 'WETH', 'Wrapped Ether'),
 }
 
 export const WNATIVE: TokenMap = {
@@ -205,6 +210,14 @@ export const WNATIVE: TokenMap = {
   [ChainId.CORE]: WETH9[ChainId.CORE],
   [ChainId.CORE_TESTNET]: WETH9[ChainId.CORE_TESTNET],
   [ChainId.DCHAIN_TESTNET]: WETH9[ChainId.DCHAIN_TESTNET],
+
+  [ChainId.FRAXTAL]: WETH9[ChainId.FRAXTAL],
+  [ChainId.FRAXTAL_TESTNET]: WETH9[ChainId.FRAXTAL_TESTNET],
+
+  [ChainId.OPEN_CAMPUS]: WETH9[ChainId.OPEN_CAMPUS],
+
+  [ChainId.BASE]: WETH9[ChainId.BASE],
+  [ChainId.BASE_SEPOLIA]: WETH9[ChainId.BASE_SEPOLIA],
 }
 
 export const SUSHI: ChainTokenMap = {
