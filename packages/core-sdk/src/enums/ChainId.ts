@@ -66,7 +66,7 @@ export enum ChainId {
 
   OPEN_CAMPUS = 656476,
 
-  BASE=base.id,
-  BASE_SEPOLIA=baseSepolia.id
+  BASE=8453,
+  BASE_SEPOLIA=84532
 
 }
