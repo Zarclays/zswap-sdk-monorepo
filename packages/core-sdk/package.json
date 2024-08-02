@@ -1,9 +1,10 @@
 {
   "name": "@zarclays/zswap-core-sdk",
-  "version": "0.1.18",
+  "version": "0.1.20",
   "license": "MIT",
-  "main": "dist/index.js",
+  "main": "dist/zswap-core-sdk.esm.js",
   "typings": "dist/index.d.ts",
+  "type": "module",
   "files": [
     "dist"
   ],
