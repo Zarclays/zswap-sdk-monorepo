@@ -67,8 +67,9 @@ export enum ChainKey {
 
   BASE="base",
 
-  BASE_SEPOLIA="base_sepolia"
+  BASE_SEPOLIA="base_sepolia",
 
-
+  OP_BNB="op_bnb",
+  OP_BNB_TESTNET="op_bnb_testnet"
 
 }
