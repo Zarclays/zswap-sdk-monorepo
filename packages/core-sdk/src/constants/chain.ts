@@ -70,7 +70,9 @@ export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
   [ChainId.BASE_SEPOLIA]: ChainKey.BASE_SEPOLIA,
 
   [ChainId.OP_BNB]: ChainKey.OP_BNB,
-  [ChainId.OP_BNB_TESTNET]: ChainKey.OP_BNB_TESTNET
+  [ChainId.OP_BNB_TESTNET]: ChainKey.OP_BNB_TESTNET,
 
+  [ChainId.AURORA]:ChainKey.AURORA,
+  [ChainId.AURORA_TESTNET]:ChainKey.AURORA_TESTNET,
 
 }

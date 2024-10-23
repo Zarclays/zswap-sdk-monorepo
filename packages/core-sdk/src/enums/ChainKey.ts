@@ -70,6 +70,16 @@ export enum ChainKey {
   BASE_SEPOLIA="base_sepolia",
 
   OP_BNB="op_bnb",
-  OP_BNB_TESTNET="op_bnb_testnet"
+  OP_BNB_TESTNET="op_bnb_testnet",
+
+  AURORA_TESTNET="aurora_testnet",
+  AURORA="aurora",
+
+  NEO_X_TESTNET="neo_x_testnet",
+  NEO="neo_x",
+
+  MORPH_TESTNET="morph_testnet",
+  MORPH="morph",
+
 
 }

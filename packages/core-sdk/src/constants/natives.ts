@@ -88,4 +88,8 @@ export const NATIVE: NativeMap = {
 
   [ChainId.OP_BNB]: Ether.onChain(ChainId.OP_BNB),
   [ChainId.OP_BNB_TESTNET]: Ether.onChain(ChainId.OP_BNB_TESTNET),
+
+  
+  [ChainId.AURORA]: Ether.onChain(ChainId.AURORA),
+  [ChainId.AURORA_TESTNET]: Ether.onChain(ChainId.AURORA_TESTNET),
 }
