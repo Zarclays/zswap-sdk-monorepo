@@ -112,6 +112,9 @@ export const WETH9: TokenMap = {
 
   [ChainId.AURORA]: new Token(ChainId.AURORA, WETH9_ADDRESS[ChainId.AURORA], 18, 'WETH', 'Wrapped Ether'),
   [ChainId.AURORA_TESTNET]: new Token(ChainId.AURORA_TESTNET, WETH9_ADDRESS[ChainId.AURORA_TESTNET], 18, 'WETH', 'Wrapped Ether'),
+
+  [ChainId.NEO_X]: new Token(ChainId.NEO_X, WETH9_ADDRESS[ChainId.NEO_X], 18, 'WGAS', 'Wrapped Gas'),
+  [ChainId.NEO_X_TESTNET]: new Token(ChainId.NEO_X_TESTNET, WETH9_ADDRESS[ChainId.NEO_X_TESTNET], 18, 'WGAS', 'Wrapped Gas'),
 }
 
 export const WNATIVE: TokenMap = {
@@ -224,6 +227,9 @@ export const WNATIVE: TokenMap = {
 
   [ChainId.AURORA]: WETH9[ChainId.AURORA],
   [ChainId.AURORA_TESTNET]: WETH9[ChainId.AURORA_TESTNET],
+
+  [ChainId.NEO_X]: WETH9[ChainId.NEO_X],
+  [ChainId.NEO_X_TESTNET]: WETH9[ChainId.NEO_X_TESTNET],
 }
 
 export const SUSHI: ChainTokenMap = {
