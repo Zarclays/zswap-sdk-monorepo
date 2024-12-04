@@ -90,7 +90,7 @@ export const WETH9: TokenMap = {
     'Wrapped Ether'
   ),
   [ChainId.CORE_TESTNET]: new Token(ChainId.CORE_TESTNET, WETH9_ADDRESS[ChainId.CORE_TESTNET], 18, 'wtCore', 'Wrapped tCore'),
-  [ChainId.CORE]: new Token(ChainId.CORE, WETH9_ADDRESS[ChainId.CORE], 18, 'wtCore', 'Wrapped tCore'),
+  [ChainId.CORE]: new Token(ChainId.CORE, WETH9_ADDRESS[ChainId.CORE], 18, 'wCore', 'Wrapped Core'),
 
 
   [ChainId.METER]: new Token(ChainId.METER, WETH9_ADDRESS[ChainId.METER], 18, 'wMTR', 'Wrapped MTR'),
@@ -259,4 +259,6 @@ export const SUSHI: ChainTokenMap = {
   [ChainId.ALFAJORES]: new Token(ChainId.ALFAJORES, ZSWAPTOKEN_ADDRESS[ChainId.ALFAJORES], 18, 'ZSwap', 'ZSwap'),
 
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, ZSWAPTOKEN_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'ZSwap', 'ZSwap'),
+
+  
 }
