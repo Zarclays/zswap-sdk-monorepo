@@ -74,5 +74,6 @@ export const CHAIN_KEY: { [chainId: number]: ChainKey } = {
 
   [ChainId.AURORA]:ChainKey.AURORA,
   [ChainId.AURORA_TESTNET]:ChainKey.AURORA_TESTNET,
-
+  [ChainId.NEO_X]:ChainKey.NEO_X,
+  [ChainId.NEO_X_TESTNET]:ChainKey.NEO_X_TESTNET,
 }

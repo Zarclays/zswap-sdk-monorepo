@@ -76,7 +76,7 @@ export enum ChainKey {
   AURORA="aurora",
 
   NEO_X_TESTNET="neo_x_testnet",
-  NEO="neo_x",
+  NEO_X="neo_x",
 
   MORPH_TESTNET="morph_testnet",
   MORPH="morph",
