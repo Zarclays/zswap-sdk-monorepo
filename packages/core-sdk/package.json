@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-core-sdk",
-  "version": "0.1.37",
+  "version": "0.1.38",
   "license": "MIT",
   "main": "dist/zswap-core-sdk.esm.js",
   "typings": "dist/index.d.ts",
@@ -42,5 +42,5 @@
     "@types/big.js": "^6.1.0",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "82bfdf4a782ce2d34813592ccc903c15d595f4a7"
+  "gitHead": "1e4a19008702bc881650b7fa0100161be740b936"
 }
