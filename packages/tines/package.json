@@ -28,12 +28,12 @@
   },
   "dependencies": {
     "@ethersproject/bignumber": "^5.4.0",
-    "@zarclays/zswap-core-sdk": "0.1.5"
+    "@zarclays/zswap-core-sdk": "workspace:*"
   },
   "devDependencies": {
     "@types/seedrandom": "^3.0.1",
     "seedrandom": "^3.0.5",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "c71d49d8c371a3629bed55a764531aaef23f0d68"
+  "gitHead": "e9c18c28f37115588dfe517baf9dddd6c29f4523"
 }
