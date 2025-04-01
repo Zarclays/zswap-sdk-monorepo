@@ -1,14 +1,14 @@
 {
   "name": "@zarclays/zswap-tines",
-  "version": "0.1.12",
+  "version": "0.1.13",
   "license": "UNLICENSED",
-  "private": true,
+  "private": false,
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "module": "dist/tines.esm.js",
+  "module": "dist/zswap-tines.esm.js",
   "repository": {
     "url": "zarclays/zswap-sdk",
     "directory": "packages/tines"
