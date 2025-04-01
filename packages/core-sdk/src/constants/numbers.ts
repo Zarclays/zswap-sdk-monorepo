@@ -1,5 +1,5 @@
 import JSBI from 'jsbi'
-import { FeeAmount } from 'src/enums'
+import { FeeAmount } from '../enums'
 
 export const MaxUint256 = JSBI.BigInt('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff')
 
