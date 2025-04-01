@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-tines",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "license": "UNLICENSED",
   "private": false,
   "main": "dist/index.js",
@@ -14,7 +14,7 @@
     "directory": "packages/tines"
   },
   "publishConfig": {
-    "access": "private",
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
@@ -35,5 +35,5 @@
     "seedrandom": "^3.0.5",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "4247554cb676b8a04587bf254ec9d2a0c55f6d34"
+  "gitHead": "c71d49d8c371a3629bed55a764531aaef23f0d68"
 }
