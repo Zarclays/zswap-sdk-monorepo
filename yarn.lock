@@ -4663,27 +4663,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@zarclays/zswap-core-sdk@npm:0.1.39, @zarclays/zswap-core-sdk@workspace:packages/core-sdk":
-  version: 0.0.0-use.local
-  resolution: "@zarclays/zswap-core-sdk@workspace:packages/core-sdk"
-  dependencies:
-    "@ethersproject/address": "npm:^5.4.0"
-    "@ethersproject/bignumber": "npm:^5.4.0"
-    "@ethersproject/providers": "npm:^5.4.0"
-    "@ethersproject/solidity": "npm:^5.4.0"
-    "@types/big.js": "npm:^6.1.0"
-    "@wagmi/core": "npm:^1.4.5"
-    big.js: "npm:^6.1.1"
-    decimal.js-light: "npm:^2.5.0"
-    jsbi: "npm:^4.1.0"
-    tiny-invariant: "npm:^1.1.0"
-    tiny-warning: "npm:^1.0.0"
-    toformat: "npm:^2.0.0"
-    tsdx: "npm:^0.14.1"
-    viem: "npm:^1.17.1"
-  languageName: unknown
-  linkType: soft
-
 "@zarclays/zswap-core-sdk@npm:0.1.5":
   version: 0.1.5
   resolution: "@zarclays/zswap-core-sdk@npm:0.1.5"
@@ -4703,6 +4682,27 @@ __metadata:
   checksum: 10/732407455bbc6220fa5559604c8768372c857479c990a309b33ff061fe7dd87a64fbe6384edff099ebe110ad1026b62746623dfc3fddba0fd0f0c791cf56a9ce
   languageName: node
   linkType: hard
+
+"@zarclays/zswap-core-sdk@workspace:*, @zarclays/zswap-core-sdk@workspace:packages/core-sdk":
+  version: 0.0.0-use.local
+  resolution: "@zarclays/zswap-core-sdk@workspace:packages/core-sdk"
+  dependencies:
+    "@ethersproject/address": "npm:^5.4.0"
+    "@ethersproject/bignumber": "npm:^5.4.0"
+    "@ethersproject/providers": "npm:^5.4.0"
+    "@ethersproject/solidity": "npm:^5.4.0"
+    "@types/big.js": "npm:^6.1.0"
+    "@wagmi/core": "npm:^1.4.5"
+    big.js: "npm:^6.1.1"
+    decimal.js-light: "npm:^2.5.0"
+    jsbi: "npm:3.2.5"
+    tiny-invariant: "npm:^1.1.0"
+    tiny-warning: "npm:^1.0.0"
+    toformat: "npm:^2.0.0"
+    tsdx: "npm:^0.14.1"
+    viem: "npm:^1.17.1"
+  languageName: unknown
+  linkType: soft
 
 "@zarclays/zswap-kashi-sdk@workspace:packages/kashi-sdk":
   version: 0.0.0-use.local
@@ -4741,23 +4741,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@zarclays/zswap-tines@npm:0.1.7":
-  version: 0.1.7
-  resolution: "@zarclays/zswap-tines@npm:0.1.7"
-  dependencies:
-    "@ethersproject/bignumber": "npm:^5.4.0"
-    "@zarclays/zswap-core-sdk": "npm:0.1.5"
-  checksum: 10/634cf527719f489d2b33d9c6942dc8447bd7acfdbc54b55dcde3d259aeb89f1e241d5e6d85af35875ddc188fe2dfa55af7a17e25260ce399a0b3a1e73ebd818d
-  languageName: node
-  linkType: hard
-
-"@zarclays/zswap-tines@workspace:packages/tines":
+"@zarclays/zswap-tines@workspace:*, @zarclays/zswap-tines@workspace:packages/tines":
   version: 0.0.0-use.local
   resolution: "@zarclays/zswap-tines@workspace:packages/tines"
   dependencies:
     "@ethersproject/bignumber": "npm:^5.4.0"
     "@types/seedrandom": "npm:^3.0.1"
-    "@zarclays/zswap-core-sdk": "npm:0.1.5"
+    "@zarclays/zswap-core-sdk": "workspace:*"
     seedrandom: "npm:^3.0.5"
     tsdx: "npm:^0.14.1"
   languageName: unknown
@@ -4769,8 +4759,8 @@ __metadata:
   dependencies:
     "@ethersproject/abi": "npm:^5.4.0"
     "@ethersproject/bignumber": "npm:^5.4.0"
-    "@zarclays/zswap-core-sdk": "npm:0.1.39"
-    "@zarclays/zswap-tines": "npm:0.1.7"
+    "@zarclays/zswap-core-sdk": "workspace:*"
+    "@zarclays/zswap-tines": "workspace:*"
     "@zarclays/zswap-trident": "npm:0.0.2-0"
     tiny-invariant: "npm:^1.1.0"
     trident-preview: "npm:@sushiswap/trident@1.0.0-canary.36"
@@ -10225,6 +10215,13 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 10/9e22d80b4d0105b9899135365f746d47466ed53ef4223c529b3c0f7a39907743fdbd3c4379f94f1106f02755b5e90b2faaf84801a891135544e1ea475d1a1379
+  languageName: node
+  linkType: hard
+
+"jsbi@npm:3.2.5":
+  version: 3.2.5
+  resolution: "jsbi@npm:3.2.5"
+  checksum: 10/2cceb3a06dcb16493e936aa22384d912dd5f0a1fd474b97b5c6705011bd0aac8214d9a392a730b3f3ffb61a8fbe910a34d0fe881329be6a02857520d7a61ace6
   languageName: node
   linkType: hard
 

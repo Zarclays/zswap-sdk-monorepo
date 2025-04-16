@@ -1,8 +1,7 @@
 {
   "name": "@zarclays/zswap-trident-sdk",
-  "version": "0.1.17",
+  "version": "0.1.18",
   "license": "MIT",
-  "private": false,
   "main": "dist/zswap-trident-sdk.esm.js",
   "module": "dist/zswap-trident-sdk.esm.js",
   "type": "module",

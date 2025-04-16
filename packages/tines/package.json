@@ -1,8 +1,7 @@
 {
   "name": "@zarclays/zswap-tines",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "license": "UNLICENSED",
-  "private": false,
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [

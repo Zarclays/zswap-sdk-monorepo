@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-core-sdk",
-  "version": "0.1.45",
+  "version": "0.1.46",
   "license": "MIT",
   "main": "dist/zswap-core-sdk.esm.js",
   "typings": "dist/index.d.ts",
@@ -32,7 +32,7 @@
     "@wagmi/core": "^1.4.5",
     "big.js": "^6.1.1",
     "decimal.js-light": "^2.5.0",
-    "jsbi": "^4.1.0",
+    "jsbi": "^3.2.5",
     "tiny-invariant": "^1.1.0",
     "tiny-warning": "^1.0.0",
     "toformat": "^2.0.0",
