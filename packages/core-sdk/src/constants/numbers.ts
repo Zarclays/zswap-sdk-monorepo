@@ -16,6 +16,10 @@ export const _1000 = JSBI.BigInt(1000)
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 
+// used in liquidity amount math
+export const Q96 = JSBI.exponentiate(JSBI.BigInt(2), JSBI.BigInt(96))
+export const Q192 = JSBI.exponentiate(Q96, JSBI.BigInt(2))
+
 
   
 /**

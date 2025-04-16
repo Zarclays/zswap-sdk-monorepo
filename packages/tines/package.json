@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-tines",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "license": "UNLICENSED",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -34,5 +34,5 @@
     "seedrandom": "^3.0.5",
     "tsdx": "^0.14.1"
   },
-  "gitHead": "e9c18c28f37115588dfe517baf9dddd6c29f4523"
+  "gitHead": "8da1c7bfe91635173ed7c52a429fdd411781295e"
 }
