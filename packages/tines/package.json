@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@ethersproject/bignumber": "^5.4.0",
-    "@zarclays/zswap-core-sdk": "workspace:*"
+    "@zarclays/zswap-core-sdk": "*"
   },
   "devDependencies": {
     "@types/seedrandom": "^3.0.1",

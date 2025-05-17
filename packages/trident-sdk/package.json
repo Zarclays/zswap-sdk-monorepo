@@ -27,8 +27,8 @@
   "dependencies": {
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/bignumber": "^5.4.0",
-    "@zarclays/zswap-core-sdk": "workspace:*",
-    "@zarclays/zswap-tines": "workspace:*",
+    "@zarclays/zswap-core-sdk": "*",
+    "@zarclays/zswap-tines": "*",
     "@zarclays/zswap-trident": "0.0.2-0",
     "tiny-invariant": "^1.1.0",
     "trident-preview": "npm:@sushiswap/trident@1.0.0-canary.36"
