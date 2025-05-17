@@ -22,7 +22,7 @@
     "build": "tsdx build",
     "watch": "tsdx watch",
     "test": "tsdx test --passWithNoTests",
-    "prepublishOnly": "npx tsdx build"
+    "prepack": "npx tsdx build"
   },
   "dependencies": {
     "@ethersproject/address": "^5.4.0",

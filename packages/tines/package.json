@@ -2,7 +2,6 @@
   "name": "@zarclays/zswap-tines",
   "version": "0.1.14",
   "license": "UNLICENSED",
-  "private": false,
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -24,7 +23,7 @@
     "test": "tsdx test",
     "test_debug": "node --inspect-brk '../../node_modules/tsdx/dist/index.js' test",
     "clear_jest_cache": "tsdx test --clearCache --passWithNoTests",
-    "prepublishOnly": "npx tsdx build"
+    "prepack": "npx tsdx build"
   },
   "dependencies": {
     "@ethersproject/bignumber": "^5.4.0",

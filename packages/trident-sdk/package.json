@@ -2,7 +2,6 @@
   "name": "@zarclays/zswap-trident-sdk",
   "version": "0.1.17",
   "license": "MIT",
-  "private": false,
   "main": "dist/zswap-trident-sdk.esm.js",
   "module": "dist/zswap-trident-sdk.esm.js",
   "type": "module",
@@ -23,7 +22,7 @@
     "build": "tsdx build",
     "watch": "tsdx watch",
     "test": "tsdx test --passWithNoTests",
-    "prepublishOnly": "npx tsdx build"
+    "prepack": "npx tsdx build"
   },
   "dependencies": {
     "@ethersproject/abi": "^5.4.0",
