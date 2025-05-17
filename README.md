@@ -98,3 +98,8 @@ eg
 ```
  yarn workspace @zarclays/zswap-core-sdk add @wagmi/core viem
 ```
+
+
+
+## Pack ALl Locally
+`yarn run pack-all`

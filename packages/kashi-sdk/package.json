@@ -27,7 +27,7 @@
   "dependencies": {
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/contracts": "^5.4.0",
-    "@zarclays/zswap-bentobox-sdk": "0.1.12"
+    "@zarclays/zswap-bentobox-sdk": "*"
   },
   "devDependencies": {
     "tsdx": "^0.14.1"

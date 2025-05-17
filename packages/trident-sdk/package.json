@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-trident-sdk",
-  "version": "0.1.19",
+  "version": "0.1.20",
   "license": "MIT",
   "main": "dist/zswap-trident-sdk.esm.js",
   "module": "dist/zswap-trident-sdk.esm.js",
@@ -30,6 +30,7 @@
     "@zarclays/zswap-core-sdk": "*",
     "@zarclays/zswap-tines": "*",
     "@zarclays/zswap-trident": "0.0.2-0",
+    "jsbi": "^3.2.5",
     "tiny-invariant": "^1.1.0",
     "trident-preview": "npm:@sushiswap/trident@1.0.0-canary.36"
   },
