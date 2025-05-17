@@ -4695,7 +4695,7 @@ __metadata:
     "@wagmi/core": "npm:^1.4.5"
     big.js: "npm:^6.1.1"
     decimal.js-light: "npm:^2.5.0"
-    jsbi: "npm:3.2.5"
+    jsbi: "npm:^4.1.0"
     tiny-invariant: "npm:^1.1.0"
     tiny-warning: "npm:^1.0.0"
     toformat: "npm:^2.0.0"
@@ -10215,13 +10215,6 @@ __metadata:
   bin:
     js-yaml: bin/js-yaml.js
   checksum: 10/9e22d80b4d0105b9899135365f746d47466ed53ef4223c529b3c0f7a39907743fdbd3c4379f94f1106f02755b5e90b2faaf84801a891135544e1ea475d1a1379
-  languageName: node
-  linkType: hard
-
-"jsbi@npm:3.2.5":
-  version: 3.2.5
-  resolution: "jsbi@npm:3.2.5"
-  checksum: 10/2cceb3a06dcb16493e936aa22384d912dd5f0a1fd474b97b5c6705011bd0aac8214d9a392a730b3f3ffb61a8fbe910a34d0fe881329be6a02857520d7a61ace6
   languageName: node
   linkType: hard
 

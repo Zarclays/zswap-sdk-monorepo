@@ -10,3 +10,4 @@ package-lock.json
 !.yarn/versions
 .pnp.*
 /*.log
+*.tgz
