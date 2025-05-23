@@ -31,3 +31,22 @@ export const TICK_SPACINGS: { [amount in FeeAmount]: number } = {
   [FeeAmount.MEDIUM]: 60,
   [FeeAmount.HIGH]: 200
 }
+
+
+
+// Helper function to calculate sqrt price from price
+function encodeSqrtRatioX96(amount1: bigint, amount0: bigint): bigint {
+  const numerator = amount1 << BigInt(192);
+  const denominator = amount0;
+  return numerator / denominator;
+}
+
+// Helper function to calculate tick from price
+export function priceToTick(price: number): number {
+  return Math.floor(Math.log(price) / Math.log(1.0001));
+}
+
+// Helper function to calculate price from tick
+export function tickToPrice(tick: number): number {
+  return Math.pow(1.0001, tick);
+}
