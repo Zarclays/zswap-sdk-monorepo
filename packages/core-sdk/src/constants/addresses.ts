@@ -696,7 +696,7 @@ export const MULTISIG_ADDRESS: AddressMap = {
 
 // Define the Uniswap V3 factory address - this should be updated with the correct address
 export  const FACTORY_ADDRESS_V3: { [chainId: number]: string } = {
-  [ChainId.ALFAJORES]: '0x67FEa58D5a5a4162cED847E13c2c81c73bf8aeC4',
+  [ChainId.ALFAJORES]: '0x83b35B087D3de5fE9145582ee03aAde59DD81f26',
   [ChainId.CELO]: '0x67FEa58D5a5a4162cED847E13c2c81c73bf8aeC4',
   // Add other chains as needed
 };
@@ -704,7 +704,7 @@ export  const FACTORY_ADDRESS_V3: { [chainId: number]: string } = {
 // Define the Uniswap V3 position manager address
 // Uniswap V3 NonfungiblePositionManager
 export const POSITION_MANAGER_ADDRESS_V3: { [chainId: number]: string } = {
-  [ChainId.ALFAJORES]: '0xC36442b4a4522E871399CD717aBDD847Ab11FE88',
+  [ChainId.ALFAJORES]: '0xFaB92Cc02fafA786917aD6a046B141a711C78FCb',
   [ChainId.CELO]: '0x897387c7B996485c3AAa85c94272Cd6C506f8c8F',
   // Add other chains as needed
 };
@@ -712,14 +712,28 @@ export const POSITION_MANAGER_ADDRESS_V3: { [chainId: number]: string } = {
 // Define the Uniswap V3 router address - this should be updated with the correct address
 // Uniswap V3 SwapRouter
 export const ROUTER_ADDRESS_V3: { [chainId: number]: string } = {
-  [ChainId.ALFAJORES]: '0xE592427A0AEce92De3Edee1F18E0157C05861564', 
+  [ChainId.ALFAJORES]: '0x9864d5A7bD5EfdfE12Bd208dC4b0C25092375F8A', 
   [ChainId.CELO]: '0xE592427A0AEce92De3Edee1F18E0157C05861564'
   // Add other chains as needed
 };
 
 // Define the Uniswap V3 quoter address - this should be updated with the correct address
 export const QUOTER_ADDRESS_V3: { [chainId: number]: string } = {
-  [ChainId.ALFAJORES]: '0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6', // Uniswap V3 Quoter
+  [ChainId.ALFAJORES]: '0x08699cBC89e7E08aCb390692DB3A2231Cf0FFb16', // Uniswap V3 Quoter
+  [ChainId.CELO]: '0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6'
+  // Add other chains as needed
+};
+
+
+export const NFT_DESCRIPTOR_ADDRESS_V3: { [chainId: number]: string } = {
+  [ChainId.ALFAJORES]: '0x76A84bA8C733B35298eC06E97dBcFCD98D50A344', // 
+  [ChainId.CELO]: '0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6'
+  // Add other chains as needed
+};
+
+
+export const NONFUNGIBLE_TOKEN_DESCRIPTOR_ADDRESS_V3: { [chainId: number]: string } = {
+  [ChainId.ALFAJORES]: '0x4a35c7a0b9fa4eCE02F9423B1B7ad81c2C2e62ec', // 
   [ChainId.CELO]: '0xb27308f9F90D607463bb33eA1BeBb41C27CE5AB6'
   // Add other chains as needed
 };
