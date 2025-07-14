@@ -4968,7 +4968,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@zarclays/zswap-tines@workspace:^, @zarclays/zswap-tines@workspace:packages/tines":
+"@zarclays/zswap-tines@npm:^0.1.19, @zarclays/zswap-tines@workspace:packages/tines":
   version: 0.0.0-use.local
   resolution: "@zarclays/zswap-tines@workspace:packages/tines"
   dependencies:
@@ -4987,7 +4987,7 @@ __metadata:
     "@ethersproject/abi": "npm:^5.4.0"
     "@ethersproject/bignumber": "npm:^5.4.0"
     "@zarclays/zswap-core-sdk": "workspace:^"
-    "@zarclays/zswap-tines": "workspace:^"
+    "@zarclays/zswap-tines": "npm:^0.1.19"
     "@zarclays/zswap-trident": "npm:0.0.2-0"
     jsbi: "npm:^3.2.5"
     tiny-invariant: "npm:^1.1.0"

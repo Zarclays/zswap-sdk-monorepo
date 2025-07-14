@@ -28,7 +28,7 @@
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/bignumber": "^5.4.0",
     "@zarclays/zswap-core-sdk": "workspace:^",
-    "@zarclays/zswap-tines": "workspace:^",
+    "@zarclays/zswap-tines": "^0.1.19",
     "@zarclays/zswap-trident": "0.0.2-0",
     "jsbi": "^3.2.5",
     "tiny-invariant": "^1.1.0",
