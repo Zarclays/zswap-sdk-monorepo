@@ -1,5 +1,5 @@
 {
-  "name": "sdk",
+  "name": "zswap-sdks",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -8,9 +8,16 @@
     "test": "yarn workspaces foreach -A run test",
     "build": "yarn workspaces foreach -A run build",
     "watch": "yarn workspaces foreach -A run watch",
-    "pack-all": "yarn workspaces foreach -A pack"
+    "pack-all": "yarn workspaces foreach -A pack",
+    "publish:core":"yarn workspaces foreach -A --include @zarclays/zswap-core-sdk npm publish --access public",
+    "publish-all": "yarn workspaces foreach -A npm publish --access public",
+    "publish": "yarn workspaces foreach --all -pt npm publish --access public",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.29.5",
     "@types/node": "^16.9.1",
     "lerna": "^5.2.0",
     "prettier": "^2.4.0"

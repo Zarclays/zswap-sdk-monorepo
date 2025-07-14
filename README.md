@@ -24,11 +24,10 @@ yarn lerna version --no-changelog --no-git-tag-version [--preid canary] --yes
 
 ## Publishing (Canary)
 
-yarn run lerna publish from-package  --no-git-reset --no-private   --yes
-
-yarn run lerna publish from-package --dist-tag canary --no-git-reset  --preid canary --yes
+ yarn workspace @zarclays/zswap-core-sdk npm publish
 
 ## Core SDK
+ yarn workspace @zarclays/zswap-core-sdk npm publish
 
 ### Testing
 
@@ -103,3 +102,19 @@ eg
 
 ## Pack ALl Locally
 `yarn run pack-all`
+
+
+## Typical Workflow based on Yarn Changeset
+### Step 1: Make changes to your code
+### Step 2: Create a changeset
+yarn changeset
+
+### Step 3: Commit the changes and the .changeset/*.md file
+git commit -am "Add new feature + changeset"
+
+### Step 4: (Release day / CI)
+yarn version-packages
+git commit -am "Version packages"
+
+### Step 5: Publish
+yarn release
