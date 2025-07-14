@@ -1,6 +1,6 @@
 {
   "name": "@zarclays/zswap-trident-sdk",
-  "version": "0.1.20",
+  "version": "0.1.21",
   "license": "MIT",
   "main": "dist/zswap-trident-sdk.esm.js",
   "module": "dist/zswap-trident-sdk.esm.js",
@@ -27,8 +27,8 @@
   "dependencies": {
     "@ethersproject/abi": "^5.4.0",
     "@ethersproject/bignumber": "^5.4.0",
-    "@zarclays/zswap-core-sdk": "*",
-    "@zarclays/zswap-tines": "*",
+    "@zarclays/zswap-core-sdk": "0.1.49",
+    "@zarclays/zswap-tines": "0.1.19",
     "@zarclays/zswap-trident": "0.0.2-0",
     "jsbi": "^3.2.5",
     "tiny-invariant": "^1.1.0",
