@@ -1,3 +1,18 @@
-const { default: config } = require('@sushiswap/prettier-config')
-
-module.exports = config
+module.exports = {
+  printWidth: 120,
+  semi: true,
+  singleQuote: true,
+  trailingComma: 'es5',
+  bracketSpacing: true,
+  bracketSameLine: false,
+  arrowParens: 'always',
+  tabWidth: 2,
+  useTabs: false,
+  endOfLine: 'lf',
+  quoteProps: 'as-needed',
+  jsxSingleQuote: false,
+  jsxBracketSameLine: false,
+  proseWrap: 'preserve',
+  htmlWhitespaceSensitivity: 'css',
+  vueIndentScriptAndStyle: false,
+};

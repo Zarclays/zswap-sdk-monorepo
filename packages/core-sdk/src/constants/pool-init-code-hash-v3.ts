@@ -60,4 +60,7 @@ export const POOL_INIT_CODE_HASH_V3: { [chainId: number]: string } = {
   
   [ChainId.NEO_X]: '0xa598dd2fba360510c5a8f02f44423a4468e902df5857dbce3ca162a43a3a31ff',
   [ChainId.NEO_X_TESTNET]: '0xa598dd2fba360510c5a8f02f44423a4468e902df5857dbce3ca162a43a3a31ff',
+
+  [ChainId.SHARDEUM]: '0xa598dd2fba360510c5a8f02f44423a4468e902df5857dbce3ca162a43a3a31ff',
+  [ChainId.SHARDEUM_TESTNET]: '0xa598dd2fba360510c5a8f02f44423a4468e902df5857dbce3ca162a43a3a31ff',
 }

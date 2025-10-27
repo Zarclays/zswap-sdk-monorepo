@@ -94,5 +94,8 @@ export const NATIVE: NativeMap = {
   [ChainId.AURORA_TESTNET]: Ether.onChain(ChainId.AURORA_TESTNET),
   
   [ChainId.NEO_X]: Ether.onChain(ChainId.NEO_X),
-  [ChainId.NEO_X_TESTNET]: Ether.onChain(ChainId.NEO_X_TESTNET)
+  [ChainId.NEO_X_TESTNET]: Ether.onChain(ChainId.NEO_X_TESTNET),
+
+  [ChainId.SHARDEUM]: Ether.onChain(ChainId.SHARDEUM),
+  [ChainId.SHARDEUM_TESTNET]: Ether.onChain(ChainId.SHARDEUM_TESTNET),
 }

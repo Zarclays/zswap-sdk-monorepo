@@ -81,5 +81,8 @@ export enum ChainKey {
   MORPH_TESTNET="morph_testnet",
   MORPH="morph",
 
+  SHARDEUM="shardeum",
+  SHARDEUM_TESTNET="shardeum-testnet",
+
 
 }

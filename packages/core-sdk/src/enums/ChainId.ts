@@ -81,4 +81,7 @@ export enum ChainId {
   MORPH_TESTNET = 2810,
   MORPH=-1,
 
+  SHARDEUM = 8118,
+  SHARDEUM_TESTNET=8119,
+
 }

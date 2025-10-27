@@ -115,6 +115,9 @@ export const WETH9: TokenMap = {
 
   [ChainId.NEO_X]: new Token(ChainId.NEO_X, WETH9_ADDRESS[ChainId.NEO_X], 18, 'WGAS', 'Wrapped Gas'),
   [ChainId.NEO_X_TESTNET]: new Token(ChainId.NEO_X_TESTNET, WETH9_ADDRESS[ChainId.NEO_X_TESTNET], 18, 'WGAS', 'Wrapped Gas'),
+
+  [ChainId.SHARDEUM]: new Token(ChainId.SHARDEUM, WETH9_ADDRESS[ChainId.SHARDEUM], 18, 'wSHM', 'Wrapped SHM'),
+  [ChainId.SHARDEUM_TESTNET]: new Token(ChainId.SHARDEUM_TESTNET, WETH9_ADDRESS[ChainId.SHARDEUM_TESTNET], 18, 'wSHM', 'Wrapped SHM'),
 }
 
 export const WNATIVE: TokenMap = {
@@ -230,6 +233,9 @@ export const WNATIVE: TokenMap = {
 
   [ChainId.NEO_X]: new Token(ChainId.NEO_X, WNATIVE_ADDRESS[ChainId.NEO_X], 18, 'wGAS', 'Wrapped GAS'),
   [ChainId.NEO_X_TESTNET]: new Token(ChainId.NEO_X_TESTNET, WNATIVE_ADDRESS[ChainId.NEO_X_TESTNET], 18, 'wGAS', 'Wrapped GAS'),
+
+  [ChainId.SHARDEUM]: new Token(ChainId.SHARDEUM, WNATIVE_ADDRESS[ChainId.SHARDEUM], 18, 'wSHM', 'Wrapped SHM'),
+  [ChainId.SHARDEUM_TESTNET]: new Token(ChainId.SHARDEUM_TESTNET, WNATIVE_ADDRESS[ChainId.SHARDEUM_TESTNET], 18, 'wSHM', 'Wrapped SHM'),
 }
 
 export const SUSHI: ChainTokenMap = {
@@ -260,5 +266,7 @@ export const SUSHI: ChainTokenMap = {
 
   [ChainId.SCROLL_SEPOLIA]: new Token(ChainId.SCROLL_SEPOLIA, ZSWAPTOKEN_ADDRESS[ChainId.SCROLL_SEPOLIA], 18, 'ZSwap', 'ZSwap'),
 
+  [ChainId.SHARDEUM]: new Token(ChainId.SHARDEUM, ZSWAPTOKEN_ADDRESS[ChainId.SHARDEUM], 18, 'ZSwap', 'ZSwap'),
+  [ChainId.SHARDEUM_TESTNET]: new Token(ChainId.SHARDEUM_TESTNET, ZSWAPTOKEN_ADDRESS[ChainId.SHARDEUM_TESTNET], 18, 'ZSwap', 'ZSwap'),
   
 }
