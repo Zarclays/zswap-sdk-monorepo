@@ -118,3 +118,17 @@ git commit -am "Version packages"
 
 ### Step 5: Publish
 yarn release
+
+
+
+
+
+# Current deploy
+for some reason yarn npm publish is not working, so
+
+## Bump version
+`yarn lerna version patch  --no-git-tag-version --no-private --yes  `
+
+## Publish and deploy
+go to package folder, build and then run `npm publish --access public` directly (without yarn)
+
