@@ -707,6 +707,7 @@ export const MULTISIG_ADDRESS: AddressMap = {
 export  const FACTORY_ADDRESS_V3: { [chainId: number]: string } = {
   [ChainId.ALFAJORES]: '0x83b35B087D3de5fE9145582ee03aAde59DD81f26',
   [ChainId.CELO]: '0xFeE7Cc22453Da768Ea1c9784a09c00dCcaE83dE8',
+  [ChainId.SHARDEUM_TESTNET]: '0x7EaCAC40f0474F846A4A313Dc668177098B530bE',
   // Add other chains as needed
 };
 
@@ -715,6 +716,7 @@ export  const FACTORY_ADDRESS_V3: { [chainId: number]: string } = {
 export const POSITION_MANAGER_ADDRESS_V3: { [chainId: number]: string } = {
   [ChainId.ALFAJORES]: '0xFaB92Cc02fafA786917aD6a046B141a711C78FCb',
   [ChainId.CELO]: '0x33fA4A3d749f9968763379385B891AeC48135a6F',
+  [ChainId.SHARDEUM_TESTNET]: '0xb2869F895FC24790e81EF05a3AeF0F23897eC33b',
   // Add other chains as needed
 };
 
@@ -722,27 +724,31 @@ export const POSITION_MANAGER_ADDRESS_V3: { [chainId: number]: string } = {
 // Uniswap V3 SwapRouter
 export const ROUTER_ADDRESS_V3: { [chainId: number]: string } = {
   [ChainId.ALFAJORES]: '0x9864d5A7bD5EfdfE12Bd208dC4b0C25092375F8A', 
-  [ChainId.CELO]: '0x46410a4670b9D78455f506659bDF5F234562FE93'
+  [ChainId.CELO]: '0x46410a4670b9D78455f506659bDF5F234562FE93',
+  [ChainId.SHARDEUM_TESTNET]: '0x9F8FBFb135bfA9233347FA43516E6Ce233EA7e1D',
   // Add other chains as needed
 };
 
 // Define the Uniswap V3 quoter address - this should be updated with the correct address
 export const QUOTER_ADDRESS_V3: { [chainId: number]: string } = {
   [ChainId.ALFAJORES]: '0x08699cBC89e7E08aCb390692DB3A2231Cf0FFb16', // Uniswap V3 Quoter
-  [ChainId.CELO]: '0xd5ea85D778FCb4ec4fD16dDe550DA14291065Ca5'
+  [ChainId.CELO]: '0xd5ea85D778FCb4ec4fD16dDe550DA14291065Ca5',
+  [ChainId.SHARDEUM_TESTNET]: '0x6D096DA092FDF203c2886d88aD773A237822fD82',
   // Add other chains as needed
 };
 
 
 export const NFT_DESCRIPTOR_ADDRESS_V3: { [chainId: number]: string } = {
   [ChainId.ALFAJORES]: '0x76A84bA8C733B35298eC06E97dBcFCD98D50A344', // 
-  [ChainId.CELO]: '0x096b78e5227064Fe831046A2E9F89993b501F0b3'
+  [ChainId.CELO]: '0x096b78e5227064Fe831046A2E9F89993b501F0b3',
+  [ChainId.SHARDEUM_TESTNET]: '0x2F91F4B170F0D4897FdD24A94833F3485ed3372a',
   // Add other chains as needed
 };
 
 
 export const NONFUNGIBLE_TOKEN_DESCRIPTOR_ADDRESS_V3: { [chainId: number]: string } = {
   [ChainId.ALFAJORES]: '0x4a35c7a0b9fa4eCE02F9423B1B7ad81c2C2e62ec', // 
-  [ChainId.CELO]: '0x9b2Ec125b0b0a88dbf5Ec3e350B3Ff998De12f04'
+  [ChainId.CELO]: '0x9b2Ec125b0b0a88dbf5Ec3e350B3Ff998De12f04',
+  [ChainId.SHARDEUM_TESTNET]: '0x245835214BBBB7caD494eDE7903394c09F3b2f90',
   // Add other chains as needed
 };

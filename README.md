@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- Yarn v3 (If unfamilair consult https://yarnpkg.com/getting-started/install to get started and familiarise yourself)
+- Yarn v3 (If unfamiliar consult https://yarnpkg.com/getting-started/install to get started and familiarise yourself)
 - Node v14 and above
 
 ## Versioning 
